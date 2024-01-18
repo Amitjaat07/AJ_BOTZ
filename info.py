@@ -12,7 +12,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
+SESSION = environ.get('BQFfILwAWwg5GfFfuMJJRuOCWo_S-gXct3y1N1LhUVMcOwUFKLXtWv6KmmBkgCmmkLSl_CWr6fILxlNCYFI-z29q9jJdmGQbDAt-1-ZL9O1x9Sngl8WK0sMnakWM36W8fo_t3tJazR1VoCNbe_qiwsz54DUGFoIhEdQ0Hb5N2cwb3Hm71Q01VQgrDAf0eL3g4riXyA9Vl_p1vTAbxIGdQQlhcNRVdp_8YMOoZ1c4X-JeLO8G9tDplWXv3ubdAVg4M6wPoShSJcVLdy3jNMbVtf_oUsDL7hfsWORIlQiUwOOxqlpW33WN-w1MjDe8SimNaIUtZoxHCyYHPzGb2lGQYRS96DhjtAAAAAGeSxaSAQ', 'Media_search')
 API_ID = int(environ.get('API_ID', '23011516'))
 API_HASH = environ.get('API_HASH', '1adeff1765d4a6f501e231e66114c692')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6950688402:AAE4g1B4CfoHOCjwJjWfeJURfIithLzRV8o")
@@ -44,7 +44,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://13amitjaat:Y9wMJbq0SscWJUlw@cluster0.m5l2qoa.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
